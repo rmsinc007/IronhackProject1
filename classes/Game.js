@@ -43,7 +43,7 @@ class Game {
     if (this.timer > 60) {
       clearInterval(this.gameID);
       ctx.font = "30px Arial";
-      ctx.fillText("You're an expert kayaker!  You've unlocked the next Rapids Challenge!", 50, 300);
+      ctx.fillText("You've won the first time trial and unlocked the next Rapids Challenge!", 50, 300);
     }
     //else {
     //  clearInterval(this.gameID);
