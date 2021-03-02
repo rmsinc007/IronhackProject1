@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />  
+      <title>Kayak Kingdom</title>
+      <link rel="stylesheet" href="style.css" />
+      <script defer src="./globals.js"></script>
+      <script defer src="./Kayaker.js"></script>
+      <script defer src="./classes/Obstacle.js"></script>
+      <script defer src="./classes/Game.js"></script>
+      <script defer src="./script.js"></script>
+    </head>
+    <body>
+      <div class="game-intro">
+      
+        <h1>Kayak Kingdom</h1>
+      
+        <h2>Race the river and avoid the rocks</h2>
+
+        <button id="start">Start Paddling!</button>
+
+        <h3>Use the arrow keys to paddle the kayak</h3>
+        <h2 id="timer">0</h2>
+      </div>
+
+      <div class="river-board">
+
+        <canvas id="river" width="1000" height="1000"></canvas>
+        
+      </div>
+      
+    </body>
+</html>
