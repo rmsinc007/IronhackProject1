@@ -5,8 +5,8 @@ class Kayaker {
      this.height = 90;
      this.width = 75;
      this.img = new Image();
-     this.img.src = "./kayak.png";
-   }
+     this.img.src = "./Kayak.png";
+   
    
    draw() {
        ctx.drawImage(
